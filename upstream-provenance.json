@@ -1,0 +1,29 @@
+[
+  {
+    "package": "candle-core",
+    "version": "0.11.0",
+    "registry_checksum": "5ecb245093b0f791b89d3420c3df9c6d49c60ab63ba54db896bf8a3baf486706",
+    "upstream_vcs": {
+      "git": {
+        "sha1": "31f35b147389700ed2a178ee66a91c3cc25cc80d"
+      },
+      "path_in_vcs": "candle-core"
+    },
+    "changed_rust_files": [
+      "src/npy.rs",
+      "src/pickle.rs"
+    ]
+  },
+  {
+    "package": "candle-nn",
+    "version": "0.11.0",
+    "registry_checksum": "eaa10b6ccc365b33210ce404fbf45e60d3e0bdac1004463cf1052e6ee1c1739a",
+    "upstream_vcs": {
+      "git": {
+        "sha1": "31f35b147389700ed2a178ee66a91c3cc25cc80d"
+      },
+      "path_in_vcs": "candle-nn"
+    },
+    "changed_rust_files": []
+  }
+]

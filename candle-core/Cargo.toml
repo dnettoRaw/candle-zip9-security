@@ -279,3 +279,7 @@ default-features = false
 upstream-package = "candle-core"
 upstream-version = "0.11.0"
 upstream-repository = "https://github.com/huggingface/candle"
+
+[[test]]
+name = "zip9_security"
+path = "tests/zip9_security.rs"
